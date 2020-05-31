@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Capstone Project: User Car Dealer Website (React with NoSQL)
 
-## Available Scripts
+#### A React web application that shall render a listing of cars up for sale along with image and details that are relevant to a car buyer (make, model, year, price, odometer reading, miles, detailed images etc.).
 
-In the project directory, you can run:
 
-### `npm start`
+- Users are buyers in the market looking for more choices when it comes to buying cars (more choices than what a traditional non-online dealer would provide)
+- Allows car purchasing from the confines of one’s home by providing accurate details of the vehicle including accident history, condition and clear external and internal images
+- Website allows a car vendor to display his wares and complete transaction with interested parties (who are remotely located)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Minimum Viable Product
+- Persist new car record in Firestore
+- Permit Update of existing record in Firestore
+- Permit Delete of existing record in Firestore
+- Real-time display of cars (data fetched from Firestore)
+- Use Flex to list cars
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Additional Features
+- Authentication
+- Authorization (ADMIN shall have greater level of Privileges such as Delete record, update record etc.)
+- Allow user to select a car upon which a “pending sale” shall appear and persist for 3 days or until completion of sale which ever happens first
+- Clicking on a car shall take user to “more details” page which shall have more images and additional details pertaining to clicked car.
+## Component Tree Diagram
 
-### `npm test`
+![alt text]([https://github.com/Rekjal/car-dealership/blob/master/src/img/projReactWithNoSQL.png](https://github.com/Rekjal/car-dealership/blob/master/src/img/projReactWithNoSQL.png))
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+            
+##### Date: **05/31/2020**
 
-### `npm run build`
+#### By **Salim Mayan**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Specifications:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup/Installation Requirements
 
-### `npm run eject`
+1. Clone this repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. To run program, do `npm install --save-exact react-scripts@3.2.0', `npm install' and `npm run start'
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Known Bugs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* No known bugs at this time.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technologies Used
+* Use Case
+* Firestore
+* React
+* React-Redux
+* HTML/CSS/JS/BootStrap
+* Firebase Authorization/Authentication/Hosting
 
-## Learn More
+## Support and contact details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Email no one with any questions, comments, or concerns._
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### License
 
-### Code Splitting
+*{This software is licensed under the MIT license}*
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Copyright (c) 2020 **_{Salim Mayan}_**
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
